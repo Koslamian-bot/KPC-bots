@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.niggesh {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #d2c1c1;
+    font-weight:400 ;
+}
+.login-btn{
+    text-decoration: none;
+    color: rgb(234, 173, 68);
+    margin: 15px;
+    font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: beige;
+    background-image:linear-gradient(45deg ,#d8cbcb,#291d1d);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+}
+
+.hero{
+    text-decoration: none;
+    padding: 16px 80px;
+    color: beige;
+    justify-content: center;
+    
+}
+.hero-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Space between images */
+    gap: 1rem; /* Adjust spacing between images */
+    margin-top: 1rem;
+    
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 30%; /* Ensures each image takes up equal width */
+    height: auto;
+    border-radius: 30px; /* Optional: Adds rounded corners */
+}
+
+.about{
+    text-decoration: none;
+    padding: 140px 80px;
+    color: beige;
+    justify-content: baseline;
+
+}
+.footer{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 130px 80px;
+    color: beige;
+    justify-content: baseline;
+
+    
+}
+.footer-logos {
+    display: flex;
+    gap: 1rem; /* Space between each logo */
+}
+
+.footer-logos img {
+    width: 80px; /* Adjust size of the logos */
+    height: auto;
+    border-radius: 800px;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem; /* Space between copyright text and logos */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
